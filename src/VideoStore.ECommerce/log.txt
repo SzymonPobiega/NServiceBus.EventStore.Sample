@@ -1,0 +1,499 @@
+Microsoft (R) Build Engine version 4.0.30319.17929
+[Microsoft .NET Framework, version 4.0.30319.18052]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2013-12-05 07:26:00.
+Project "C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj" on node 1 (default targets).
+Project "C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj" (1) is building "C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.Messages\VideoStore.Messages.csproj" (2) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  VideoStore.Messages -> C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.Messages\bin\Debug\VideoStore.Messages.dll
+Done Building Project "C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.Messages\VideoStore.Messages.csproj" (default targets).
+ResolveAssemblyReferences:
+  Primary reference "Microsoft.AspNet.SignalR.Core".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Microsoft.AspNet.SignalR.Core.1.0.0\lib\net40\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.AspNet.SignalR.Core", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.AspNet.SignalR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Microsoft.AspNet.SignalR.Core.winmd", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.Core.dll", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.Core.exe", but it didn't exist.
+  Primary reference "Microsoft.AspNet.SignalR.Owin".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.Owin". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Microsoft.AspNet.SignalR.Owin.1.0.0\lib\net40\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.AspNet.SignalR.Owin", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.AspNet.SignalR.Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Microsoft.AspNet.SignalR.Owin.winmd", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.Owin.dll", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.Owin.exe", but it didn't exist.
+  Primary reference "Microsoft.AspNet.SignalR.SystemWeb".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.SystemWeb". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Microsoft.AspNet.SignalR.SystemWeb.1.0.0\lib\net40\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.AspNet.SignalR.SystemWeb", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.AspNet.SignalR.SystemWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Microsoft.AspNet.SignalR.SystemWeb.winmd", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.SystemWeb.dll", but it didn't exist.
+          Considered "bin\Microsoft.AspNet.SignalR.SystemWeb.exe", but it didn't exist.
+  Primary reference "Microsoft.Owin.Host.SystemWeb".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Host.SystemWeb". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Microsoft.Owin.Host.SystemWeb.1.0.0\lib\net40\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Microsoft.Owin.Host.SystemWeb", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Microsoft.Owin.Host.SystemWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Microsoft.Owin.Host.SystemWeb.winmd", but it didn't exist.
+          Considered "bin\Microsoft.Owin.Host.SystemWeb.dll", but it didn't exist.
+          Considered "bin\Microsoft.Owin.Host.SystemWeb.exe", but it didn't exist.
+  Primary reference "Newtonsoft.Json".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Newtonsoft.Json". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Newtonsoft.Json.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Newtonsoft.Json.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Newtonsoft.Json.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Newtonsoft.Json", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Newtonsoft.Json" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Newtonsoft.Json.winmd", but it didn't exist.
+          Considered "bin\Newtonsoft.Json.dll", but it didn't exist.
+          Considered "bin\Newtonsoft.Json.exe", but it didn't exist.
+  Primary reference "Owin".
+c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Owin". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+          For SearchPath "{HintPathFromItem}".
+          Considered "..\..\..\NServiceBus.EventStore\src\packages\Owin.1.0\lib\net40\Owin.dll", but it didn't exist.
+          For SearchPath "{TargetFrameworkDirectory}".
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Owin.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Owin.exe", but it didn't exist.
+          For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}".
+          Considered AssemblyFoldersEx locations.
+          For SearchPath "{AssemblyFolders}".
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Owin.dll", but it didn't exist.
+          Considered "C:\Program Files\IIS\Microsoft Web Deploy V3\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft SQL Server\110\SDK\Assemblies\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Owin.exe", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Owin.winmd", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Owin.dll", but it didn't exist.
+          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Owin.exe", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Owin.winmd", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Owin.dll", but it didn't exist.
+          Considered "c:\Program Files (x86)\Microsoft.NET\ADOMD.NET\110\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Owin.exe", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Owin.winmd", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Owin.dll", but it didn't exist.
+          Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Owin.exe", but it didn't exist.
+          For SearchPath "{GAC}".
+          Considered "Owin", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Owin" as a file name, but it didn't exist.
+          For SearchPath "bin\".
+          Considered "bin\Owin.winmd", but it didn't exist.
+          Considered "bin\Owin.dll", but it didn't exist.
+          Considered "bin\Owin.exe", but it didn't exist.
+  AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx}"
+          
+          
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.0\ref\Caching\
+          C:\Program Files (x86)\Microsoft WCF Data Services\5.0\bin\.NETFramework\
+          C:\Program Files\Reference Assemblies\Microsoft\VSTO40\v4.0.Framework\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Common\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v4.0\
+          C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Tasks
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\PipelineComponents\
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\
+          c:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+          C:\Program Files (x86)\MySQL\Connector NET 6.6.5\Assemblies\v4.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\Type Providers\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\
+          C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\ReportViewer\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\Extensions\Microsoft\SharePoint\PublicAssemblies\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\
+          C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v4.0\Desktop
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.0\ref
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\
+          c:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\
+          C:\Program Files (x86)\MySQL\Connector NET 6.6.5\Assemblies\v2.0\
+          C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+          C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v2.0\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Blend\
+          C:\Program Files (x86)\Microsoft Visual Studio 11.0\Blend\
+          c:\Program Files\Microsoft SQL Server\110\DTS\Tasks
+          c:\Program Files\Microsoft SQL Server\110\DTS\PipelineComponents\
+          c:\Program Files\Microsoft SQL Server\110\DTS\ForEachEnumerators
+          c:\Program Files\Microsoft SQL Server\110\DTS\Connections\
+          C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.0\ref
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva- /reference:C:\Projects\NServiceBus.EventStore\binaries\EventStore.ClientAPI.dll /reference:C:\Projects\NServiceBus.EventStore\src\packages\log4net\lib\2.0\log4net.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:C:\Projects\NServiceBus.EventStore\binaries\NServiceBus.Core.dll /reference:C:\Projects\NServiceBus.EventStore\binaries\NServiceBus.dll /reference:C:\Projects\NServiceBus.EventStore\binaries\NServiceBus.Transports.EventStore.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ComponentModel.DataAnnotations.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.EnterpriseServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.ApplicationServices.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.DynamicData.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Entity.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Extensions.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.Services.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" /reference:"C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" /reference:C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.Messages\bin\Debug\VideoStore.Messages.dll /debug+ /debug:full /optimize- /out:obj\Debug\VideoStore.ECommerce.dll /target:library /warnaserror+ /utf8output ..\VideoStore.ContentManagement\UnobtrusiveMessageConventions.cs Controllers\HomeController.cs Global.asax.cs Handlers\OrderCancelledHandler.cs Handlers\OrderPlacedHandler.cs Handlers\OrdersHub.cs Handlers\OrderIsReadyHandler.cs Properties\AssemblyInfo.cs App_Start\FilterConfig.cs App_Start\RouteConfig.cs "C:\Users\spobiega.CORP\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+Handlers\OrderCancelledHandler.cs(3,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+Handlers\OrderPlacedHandler.cs(3,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+Handlers\OrdersHub.cs(4,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+Handlers\OrdersHub.cs(9,30): error CS0246: The type or namespace name 'Hub' could not be found (are you missing a using directive or an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+Handlers\OrderIsReadyHandler.cs(4,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+Done Building Project "C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj" (default target) (1) ->
+(ResolveAssemblyReferences target) -> 
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.Owin". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.AspNet.SignalR.SystemWeb". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Host.SystemWeb". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Newtonsoft.Json". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  c:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Owin". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+
+
+"C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj" (default target) (1) ->
+(CoreCompile target) -> 
+  Handlers\OrderCancelledHandler.cs(3,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  Handlers\OrderPlacedHandler.cs(3,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  Handlers\OrdersHub.cs(4,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  Handlers\OrdersHub.cs(9,30): error CS0246: The type or namespace name 'Hub' could not be found (are you missing a using directive or an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+  Handlers\OrderIsReadyHandler.cs(4,21): error CS0234: The type or namespace name 'AspNet' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?) [C:\Projects\NServiceBus.EventStore.Samples\VideoStore.EventStore\VideoStore.ECommerce\VideoStore.ECommerce.csproj]
+
+    6 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:01.02
