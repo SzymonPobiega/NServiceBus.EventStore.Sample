@@ -1,3 +1,5 @@
+using NServiceBus.Persistence.EventStore.SagaPersister;
+
 namespace VideoStore.Sales
 {
     using System;
@@ -8,6 +10,9 @@ namespace VideoStore.Sales
         public void Init()
         {
             Configure.With().Log4Net();
+            Configure.With()
+                     .DefaultBuilder()
+                     .EventStoreSagaPersister();
             //Configure.With()
             //    .DefaultBuilder()
             //    .RijndaelEncryptionService();
