@@ -17,7 +17,7 @@ namespace VideoStore.ECommerce
             bus = Configure.With()                   
                      .DefaultBuilder()
                      .Log4Net(new DebugAppender {Threshold = Level.Warn})
-                     .UseTransport<EventStore>()
+                     .UseTransport<EventStoreTransportDefinition>()
                      .PurgeOnStartup(true)
                      .UnicastBus()                     
                      .RunHandlersUnderIncomingPrincipal(false)

@@ -5,17 +5,12 @@ namespace VideoStore.Sales
     using System;
     using NServiceBus;
 
-    public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, UsingTransport<EventStore>, IWantCustomInitialization
+    public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, UsingTransport<EventStoreTransportDefinition>, IWantCustomInitialization
     {
         public void Init()
         {
             Configure.With().Log4Net();
-            Configure.With()
-                     .DefaultBuilder()
-                     .EventStoreSagaPersister();
-            //Configure.With()
-            //    .DefaultBuilder()
-            //    .RijndaelEncryptionService();
+            Configure.With().DefaultBuilder();
         }
     }
 

@@ -49,6 +49,11 @@ namespace VideoStore.ECommerce.Handlers
 
                 MvcApplication.Bus.SetMessageHeader(command, "Debug", ((bool) Clients.Caller.debug).ToString());
 
+                var random = new System.Random();
+                var userId = random.Next(10000);
+
+                MvcApplication.Bus.SetMessageHeader(command, "UserId", userId.ToString());
+
                 MvcApplication.Bus.Send(command);
                 tx.Complete();
             }
